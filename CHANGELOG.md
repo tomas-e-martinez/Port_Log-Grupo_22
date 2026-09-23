@@ -1,3 +1,12 @@
+[Ejercicio 4]
+- Creación de la clase PortAnalyzer
+- Creación de método top_infractores(n: int) -> pd.DataFrame
+- Creación de método infracciones_por_turno() -> pd.DataFrame
+- Creación de método exceso_promedio() -> float
+- Creación de método exceso_promedio_tolerancia() -> float
+- Creación de método infracciones_por_muelle() -> pd.DataFrame
+- Creación de método infractores_por_tipo_carga() -> pd.DataFrame
+
 [Ejercicio 3]
 - Normalización de fechas de ingreso y egreso al formato YYYY-MM-DD. Las fechas inválidas se completaron con 1900-01-01.
 - Normalización de horas con el formato de 24hs. Las horas inválidas se completaron con 00:00.
