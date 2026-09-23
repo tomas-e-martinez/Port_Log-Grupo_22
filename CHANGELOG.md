@@ -1,3 +1,11 @@
+[Ejercicio 5]
+- Creación y guardado Gráfico de barras: Top 10 matrículas más reincidentes
+- Creación y guardado Gráfico de torta: Total de infracciones por turno
+- Creación y guardado Gráfico de barras: Total de infracciones por mes
+- Creación y guardado Histograma de exceso de velocidad real
+- Creación y guardado Gráfico de barras: Exceso de velocidad promedio por muelle
+- Creación y guardado Gráfico de barras: Infracciones con fecha válida vs fecha inválida
+
 [Ejercicio 4]
 - Creación de la clase PortAnalyzer
 - Creación de método top_infractores(n: int) -> pd.DataFrame
