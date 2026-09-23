@@ -1,3 +1,17 @@
+[Ejercicio 3]
+- Normalización de fechas de ingreso y egreso al formato YYYY-MM-DD. Las fechas inválidas se completaron con 1900-01-01.
+- Normalización de horas con el formato de 24hs. Las horas inválidas se completaron con 00:00.
+- Calculo y adición de la columna duracion_horas.
+- Normalización de matrículas.
+- Normalización de muelles.
+- Eliminación de registros con valores nulos en columnas consideradas críticas.
+- Eliminación de outliers en tonelaje_declarado y velocidad_ingreso utilizando IQR.
+- Cálculo y creación de la columna exceso_velocidad_real
+- Cálculo y creación de la columna exceso_velocidad
+- Eliminación de registros sin infracción
+- Guardado de dataset limpio en interim
+- Exportación de resumen estadístico rápido de pandas
+
 [Ejercicio 2]
 - Descarga del dataset raw.
 
