@@ -1,3 +1,6 @@
+[Ejercicio 6]
+- Cálculo y análisis de datos varios sin modificación de los archivos.
+
 [Ejercicio 5]
 - Creación y guardado Gráfico de barras: Top 10 matrículas más reincidentes
 - Creación y guardado Gráfico de torta: Total de infracciones por turno
