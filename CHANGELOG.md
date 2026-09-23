@@ -1,3 +1,6 @@
+[Ejercicio 7]
+- Redacción y guardado de la conclusión del trabajo.
+
 [Ejercicio 6]
 - Cálculo y análisis de datos varios sin modificación de los archivos.
 
