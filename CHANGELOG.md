@@ -1,3 +1,9 @@
+[Ejercicio 3]
+- Convertir imágenes originales a escala de grises y guardar
+- Aplicar ecualización de histograma y guardar imágenes
+- Aplicar blur gaussiano y guardar imágenes
+- Aplicar Canny (detección de bordes) y guardar imágenes
+
 [Ejercicio 2]
 - Construir el diccionario group_images con 'plates' y 'completes'
 - Definición de función mostrar_muestra
