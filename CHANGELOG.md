@@ -1,3 +1,7 @@
+[Ejercicio 2]
+- Construir el diccionario group_images con 'plates' y 'completes'
+- Definición de función mostrar_muestra
+
 [Ejercicio 1]
 - Clonación del repositorio remoto.
 - Creación de rama 'Sprint_2'
