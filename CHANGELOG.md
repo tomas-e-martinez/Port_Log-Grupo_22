@@ -1,3 +1,6 @@
+[Ejercicio 6]
+- Redacción y guardado de la conclusión del trabajo.
+
 [Ejercicio 5]
 - Análisis de los datos obtenidos en el paso previo.
 
