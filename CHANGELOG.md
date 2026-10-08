@@ -1,3 +1,8 @@
+[Ejercicio 1]
+- Clonación del repositorio remoto.
+- Creación de rama 'Sprint_2'
+- Descarga y unzip de imágenes
+
 [Ejercicio 7]
 - Redacción y guardado de la conclusión del trabajo.
 

@@ -1,4 +1,4 @@
-# Trabajo Práctico Integrador: Port Log - Sprint 1
+# Trabajo Practico Integrador: Port Log - Sprint 2
 
 ## Integrantes
 - **Grupo:** 22
@@ -7,14 +7,15 @@
 
 ---
 
-## Objetivo del Sprint 1
-Aplicar conocimientos de control de versiones con Git, organización de proyectos y análisis exploratorio de datos usando Pandas sobre un dataset de operaciones portuarias.
+## Objetivo del Sprint 2
+Aplicar tecnicas de procesamiento de imagenes y reconocimiento de texto sobre las fotos de los buques para verificar que infracciones de velocidad tienen evidencia visual valida.
 
 ---
 
 ## Contexto del Problema
-El Puerto Fluvial de Rosario es uno de los centros de exportación más importantes del país. Recientemente se migró el registro de movimientos portuarios desde un sistema de los años '90, el cual acumuló inconsistencias de formato en fechas, horas y mediciones numéricas fuera de rango (como lecturas erroneas de velocidad).
+Los radares del puerto sacan fotos de la proa de los barcos cuando ingresan con exceso de velocidad para registrar su matricula. Las imagenes se dividen entre las que tienen solo el recorte de la patente y las que muestran el buque completo.
 
-El objetivo de este sprint consiste en depurar, limpiar y analizar el dataset heredado (`port_movements.csv`) para evaluar la calidad de la información, detectar patrones de infracción y dejar los datos listos para el nuevo sistema.
+El trabajo de este sprint consiste en detectar el texto de las matriculas a partir de las imagenes y cruzarlo contra la tabla de movimientos del Sprint 1 para identificar que infracciones quedaron respaldadas con una foto valida y analizar el rendimiento de las capturas.
 
-- **Fuente de datos:** [Dataset port_movements.csv](https://raw.githubusercontent.com/HAD141/datasets/refs/heads/main/TrabajosPracticos/port_log/port_movements.csv)
+- **Dataset tabular:** `port_log/data/interim/port_movements.csv`
+- **Dataset de imagenes:** [port_log_images.zip](https://github.com/HAD141/datasets/raw/refs/heads/main/TrabajosPracticos/port_log/port_log_images.zip)
