@@ -1,3 +1,7 @@
+[Ejercicio 4]
+- Cruzar matrículas extraídas de imagenes con dataset de infracciones
+- Guardar columnas nuevas con datos del cruce de datos y matrícula extraída
+
 [Ejercicio 3]
 - Convertir imágenes originales a escala de grises y guardar
 - Aplicar ecualización de histograma y guardar imágenes
