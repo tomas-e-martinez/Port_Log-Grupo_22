@@ -1,0 +1,8 @@
+[core]
+    analytics = false
+    remote = supabase_remote
+['remote "supabase_remote"']
+    url = s3://puerto-bucket
+    endpointurl = https://nquifgkmuarxbtvrivjn.storage.supabase.co/storage/v1/s3
+    access_key_id = 4856e9c5b8f0c6b951edf8ed2d07c700
+    secret_access_key = 7410d60dda0fd2acde52653e724bb378ced41fc1ea55e1bb7b8d1b86594a0706
