@@ -1,3 +1,6 @@
+[Ejercicio 8]
+- Implementación de la función buscar_buque_por_imagen(ruta_imagen) para obtener datos del buque desde base vectorial.
+
 [Ejercicio 7]
 - Creación de la base de datos vectorial buque_vectorial con ChromaDB
 - Generación de embedding a partir de la imagen 'complete' del buque.
