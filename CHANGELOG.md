@@ -1,3 +1,6 @@
+[Ejercicio 5]
+- Creación y población de la base de datos transito_portuario.
+
 [Ejercicio 4]
 - Implementación del modelo definido en el diagrama.
 - Definición de la función procesar_fila_csv(row: dict) -> Movimiento.
