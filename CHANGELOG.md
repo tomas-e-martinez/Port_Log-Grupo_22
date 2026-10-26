@@ -1,3 +1,7 @@
+[Ejercicio 7]
+- Creación de la base de datos vectorial buque_vectorial con ChromaDB
+- Generación de embedding a partir de la imagen 'complete' del buque.
+
 [Ejercicio 6]
 - Análisis mediante consultas SQL a la base de datos creada.
 
