@@ -1,3 +1,6 @@
+[Ejercicio 3]
+- Creación de diagrama entidad-relación para modelado de base de datos.
+
 [Ejercicio 2]
 - Migración a DVC de imágenes
 - Migración a DVC de gráficos
