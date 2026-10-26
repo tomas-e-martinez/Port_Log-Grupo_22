@@ -1,3 +1,6 @@
+[Ejercicio 6]
+- Análisis mediante consultas SQL a la base de datos creada.
+
 [Ejercicio 5]
 - Creación y población de la base de datos transito_portuario.
 
