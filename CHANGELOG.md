@@ -1,3 +1,6 @@
+[Ejercicio 9]
+- Redacción y guardado de la conclusión del trabajo.
+
 [Ejercicio 8]
 - Implementación de la función buscar_buque_por_imagen(ruta_imagen) para obtener datos del buque desde base vectorial.
 
