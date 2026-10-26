@@ -1,4 +1,4 @@
-# Trabajo Practico Integrador: Port Log - Sprint 2
+# Trabajo Practico Integrador: Port Log - Sprint 3
 
 ## Integrantes
 - **Grupo:** 22
@@ -7,15 +7,16 @@
 
 ---
 
-## Objetivo del Sprint 2
-Aplicar tecnicas de procesamiento de imagenes y reconocimiento de texto sobre las fotos de los buques para verificar que infracciones de velocidad tienen evidencia visual valida.
+## Objetivo
+Estructurar la informacion del puerto en una base de datos relacional mediante SQLAlchemy y sumar un sistema de busqueda por similitud visual con ChromaDB para identificar buques a partir de sus fotos.
 
 ---
 
-## Contexto del Problema
-Los radares del puerto sacan fotos de la proa de los barcos cuando ingresan con exceso de velocidad para registrar su matricula. Las imagenes se dividen entre las que tienen solo el recorte de la patente y las que muestran el buque completo.
+## Introduccion y Contexto del Problema
+A medida que el puerto escala en volumen de operaciones, el procesamiento basado en archivos CSV resulta insuficiente y la identificacion de buques únicamente por OCR genera fallas ante fotos nocturnas, borrosas o fuera de foco.
 
-El trabajo de este sprint consiste en detectar el texto de las matriculas a partir de las imagenes y cruzarlo contra la tabla de movimientos del Sprint 1 para identificar que infracciones quedaron respaldadas con una foto valida y analizar el rendimiento de las capturas.
+Para resolver estas limitaciones y profesionalizar la plataforma, en este sprint se abordan tres ejes principales:
 
-- **Dataset tabular:** `port_log/data/interim/port_movements.csv`
-- **Dataset de imagenes:** [port_log_images.zip](https://github.com/HAD141/datasets/raw/refs/heads/main/TrabajosPracticos/port_log/port_log_images.zip)
+1. **Persistencia relacional:** Migrar la informacion a una base de datos estructurada con un ORM (SQLAlchemy) que vincule buques, radares, registros de ingreso y evidencias fotográficas.
+2. **Versionado de datos:** Implementar trazabilidad sobre los archivos y datasets del proyecto para garantizar el control sobre los cambios en los datos.
+3. **Busqueda por similitud visual:** Incorporar una base de datos vectorial con ChromaDB y OpenCLIP para identificar embarcaciones mediante sus caracteristicas visuales completas, sirviendo de respaldo cuando la lectura de la patente por OCR resulta ilegible.
