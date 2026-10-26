@@ -1,3 +1,8 @@
+[Ejercicio 2]
+- Migración a DVC de imágenes
+- Migración a DVC de gráficos
+- Migración a DVC de dataset procesado
+
 [Ejercicio 1]
 - Clonación del repositorio remoto.
 - Creación de rama 'Sprint_3'
