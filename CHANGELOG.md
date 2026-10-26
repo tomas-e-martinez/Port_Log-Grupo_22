@@ -1,3 +1,7 @@
+[Ejercicio 4]
+- Implementación del modelo definido en el diagrama.
+- Definición de la función procesar_fila_csv(row: dict) -> Movimiento.
+
 [Ejercicio 3]
 - Creación de diagrama entidad-relación para modelado de base de datos.
 
